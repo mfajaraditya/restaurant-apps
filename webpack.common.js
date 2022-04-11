@@ -21,6 +21,14 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\. (png|svg|gif|jpg|jpeg)$/,
+        use: [
+          {
+            loader: 'file-loader',
+          },
+        ],
+      },
     ],
   },
   plugins: [

@@ -1,6 +1,7 @@
 import 'regenerator-runtime'; /* for async await transpile */
 import '../styles/main.css';
 import '../styles/responsive.css';
+import img from '../public/images/heros/hero.jpg';
 
 const menu = document.querySelector('#menu');
 const hero = document.querySelector('.hero');
