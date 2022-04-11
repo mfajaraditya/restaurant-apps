@@ -45,10 +45,11 @@ body {
 }
 
 .header__menu {
-  font-size: 32px;
+  font-size: 35px;
   margin: 10px auto;
   display: block;
-  width: 30px;
+  width: 48px;
+  height: 48px;
   color: white;
 }
 
@@ -122,7 +123,7 @@ img {
 }
 
 .latest h1 {
-  font-size: 25px;
+  font-size: 40px;
   font-weight: bold;
   color: white;
 }
@@ -155,14 +156,19 @@ img {
 
 .post-item__title {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 25px;
   margin-top: 16px;
   transition: 0.3s opacity;
 }
 
 .post-item__rating {
-  font-size: 12px;
+  font-size: 35px;
   font-weight: 600;
+  padding: 10px;
+}
+
+.post-item__rating span {
+    font-size: 35px;
 }
 
 .post-item__title:hover {
@@ -189,7 +195,7 @@ img {
   padding: 5px 10px 5px;
   color: rgb(0, 0, 0);
   font-weight: 500;
-  font-size: 15px;
+  font-size: 25px;
   margin: 10px;
 }
 
@@ -197,14 +203,14 @@ footer {
   width: 100%;
   text-align: center;
   background-color: #c4b9bd;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 footer p {
-  display: inline-block;
   padding: 25px;
   text-decoration: none;
   color: black;
+  font-size: 40px;
 }
 
 .makan {
